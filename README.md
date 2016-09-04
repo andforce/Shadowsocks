@@ -25,6 +25,12 @@ Host key verification failed.
 ### 配置
 > 修改/etc/shadowsocks/config.json
 
+### 配置多用户时候可能出错
+> ERROR: password not specified
+
+解决方法：
+配置多多用户时候不要删除『password』
+
 ### 启动ssserver
 > ssserver start
 > 为了可以把启动命令放到/etc/rc.local 中
