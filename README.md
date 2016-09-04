@@ -4,6 +4,7 @@
 ## 准备工作
 首先买一个VPS，安装Ubuntu16.04，为了操作方便，需要在VPS上安装 openssh-server
 > apt-get install openssh-verver
+
 ### 可能遇到的问题
 + ssh root@your-server-ip 时候报 : ECDSA host key for 172.106.32.109 has changed and you have requested strict checking.
 Host key verification failed.
