@@ -3,7 +3,7 @@
 
 ### 准备工作
 首先买一个VPS，安装Ubuntu16.04，为了操作方便，需要在VPS上安装 openssh-server
-> apt-get install openssh-verver
+> apt-get install openssh-server
 
 ### 启动ssh服务
 > /etc/init.d/ssh start
